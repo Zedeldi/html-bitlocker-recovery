@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Segoe UI Light";
+  src: url("segoe-ui-light.ttf") format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #2067b2;
+  color: #fff;
+  font-family: "Segoe UI Light";
+  font-weight: bold;
+  cursor: none;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  height: 80%;
+}
+
+input {
+  width: 500px;
+  padding: 2px;
+  text-indent: 4px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}

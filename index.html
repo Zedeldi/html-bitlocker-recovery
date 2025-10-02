@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BitLocker Recovery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="margin-bottom: 8px">BitLocker recovery</h1>
+    <div style="margin-bottom: 16px">
+      <h3 style="margin: 8px 0">Enter the recovery key for this drive</h3>
+      <input id="recovery-key" type="text" inert />
+    </div>
+    <p>
+      Use the number keys or function keys F1-F10 (use F10 for 0).
+      <br />
+      Recovery key ID (to identify your key): <span id="key-id"></span>
+    </p>
+    <p>
+      Here's how to find your key:<br />
+      - Contact your organization's help desk<br />
+      - For more information go to: aka.ms/recoverykeyfaq
+    </p>
+    <h3 style="margin-top: auto">
+      Press Enter to continue<br />
+      Press Esc for more recovery options
+    </h3>
+    <script src="index.js"></script>
+  </body>
+</html>
